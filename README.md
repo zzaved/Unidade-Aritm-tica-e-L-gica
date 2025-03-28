@@ -1,4 +1,4 @@
-# 🧮 Documentação da Unidade Lógica e Aritmética (ULA)
+# Documentação da Unidade Lógica e Aritmética (ULA)
 
 ## 🎬 [Acesse o vídeo explicativo clicando aqui](#) 
 <!-- Adicione o link para o seu vídeo explicativo aqui -->
@@ -21,8 +21,13 @@
 
 Este projeto implementa uma Unidade Lógica e Aritmética (ULA) completa usando o simulador Digital. A ULA é o componente fundamental em sistemas computacionais responsável por realizar operações aritméticas e lógicas.
 
-![Visão Geral da ULA](imagem-ula-completa.png)
-<!-- Adicione aqui uma imagem de visão geral do circuito completo -->
+<div style="text-align: center; width: 800px; margin: 0 auto;">
+    <h3>Figura X: Imagem geral da Ula</h3>
+    <div style="max-width: 800px; margin: 0 auto;">
+        <img src="media/1-ula-zoom.jpg" alt="Imagem do diagrama de blocos geral da solução" style="width: 100%;" />
+    </div>
+    <p><em>Fonte: Produzida pelos Autores (2025).</em></p>
+</div>
 
 ## 🔭 Visão Geral do Projeto
 
@@ -55,9 +60,6 @@ A seleção entre essas operações é feita através de 3 bits de controle (SEL
 - B = 00010100 (20 decimal)
 - Resultado esperado: 00111110 (62 decimal)
 
-![Teste Somador](teste-somador.png)
-<!-- Adicione uma imagem do teste do somador -->
-
 #### Subtrator de 8 bits
 
 **Funcionamento**: Reutiliza o somador existente. Inverte os bits de B (complemento de 1) e adiciona 1 através do Carry In quando o sinal SUB é ativado, realizando a operação A - B = A + (~B + 1).
@@ -75,9 +77,6 @@ Resultado:   0 1 0 1 1 0 1 0  (90 decimal)
 - A = 01100100 (100 decimal)
 - B = 00001010 (10 decimal)
 - Resultado esperado: 01011010 (90 decimal)
-
-![Teste Subtrator](teste-subtrator.png)
-<!-- Adicione uma imagem do teste do subtrator -->
 
 #### Multiplicador de 4 bits
 
@@ -101,9 +100,6 @@ Resultado:   0 1 0 1 1 0 1 0  (90 decimal)
 - B = 0111 (7 decimal)
 - Resultado esperado: 00101010 (42 decimal)
 
-![Teste Multiplicador](teste-multiplicador.png)
-<!-- Adicione uma imagem do teste do multiplicador -->
-
 ### Operações de Deslocamento
 
 #### Shift Right
@@ -121,9 +117,6 @@ Shift Right: 0 1 0 1 0 1 0 1 _
 - A = 10101010 (170 decimal)
 - Resultado esperado: 01010101 (85 decimal)
 
-![Teste Shift Right](teste-sr.png)
-<!-- Adicione uma imagem do teste do shift right -->
-
 #### Shift Left
 
 **Funcionamento**: Cada bit move-se uma posição para a esquerda, o bit mais significativo é perdido (possível overflow), e o bit menos significativo recebe 0. Equivale à multiplicação por 2.
@@ -138,9 +131,6 @@ Shift Left: _ 1 0 1 0 1 0 1 0
 **Caso de teste**:
 - A = 01010101 (85 decimal)
 - Resultado esperado: 10101010 (170 decimal)
-
-![Teste Shift Left](teste-sl.png)
-<!-- Adicione uma imagem do teste do shift left -->
 
 ### Operações Lógicas
 
@@ -161,9 +151,6 @@ A AND B: 0 0 1 1 0 0 0 0
 - B = 00111100 (60 decimal)
 - Resultado esperado: 00110000 (48 decimal)
 
-![Teste AND](teste-and.png)
-<!-- Adicione uma imagem do teste do AND -->
-
 #### Operação OR
 
 **Funcionamento**: Compara bit a bit os operandos A e B. O resultado é 1 onde pelo menos um dos bits correspondentes é 1.
@@ -180,9 +167,6 @@ A OR B: 1 1 1 1 1 1 1 1
 - A = 10101010 (170 decimal)
 - B = 01010101 (85 decimal)
 - Resultado esperado: 11111111 (255 decimal)
-
-![Teste OR](teste-or.png)
-<!-- Adicione uma imagem do teste do OR -->
 
 #### Operação XOR
 
@@ -201,9 +185,6 @@ A XOR B: 0 1 1 0 0 1 1 0
 - B = 10101010 (170 decimal)
 - Resultado esperado: 01100110 (102 decimal)
 
-![Teste XOR](teste-xor.png)
-<!-- Adicione uma imagem do teste do XOR -->
-
 ## 🔀 Circuito Seletor
 
 **Funcionamento**: Um multiplexador 8:1 de 8 bits seleciona qual resultado de operação será direcionado para a saída, com base nos 3 bits de seleção (SEL2, SEL1, SEL0).
@@ -218,9 +199,6 @@ A XOR B: 0 1 1 0 0 1 1 0
 | 101      | AND          |
 | 110      | OR           |
 | 111      | XOR          |
-
-![Circuito Seletor](circuito-seletor.png)
-<!-- Adicione uma imagem do circuito seletor -->
 
 ## ⚠️ Detecção de Overflow
 
@@ -237,9 +215,6 @@ A XOR B: 0 1 1 0 0 1 1 0
 - B = 00000001 (1 decimal)
 - Resultado: 10000000 (overflow detectado, LED aceso)
 
-![Teste Overflow](teste-overflow.png)
-<!-- Adicione uma imagem do teste de overflow -->
-
 ## 🔢 Display Hexadecimal
 
 **Funcionamento**: O resultado de 8 bits é dividido em dois dígitos hexadecimais (4 bits cada) e exibido em dois displays de 7 segmentos.
@@ -252,9 +227,6 @@ A XOR B: 0 1 1 0 0 1 1 0
 **Caso de teste**:
 - Resultado da ULA: 10101010 (binário)
 - Display esperado: "AA" (hexadecimal)
-
-![Teste Display](teste-display.png)
-<!-- Adicione uma imagem do teste do display -->
 
 ## ✅ Testes e Validação
 
@@ -280,5 +252,10 @@ Este projeto demonstrou com sucesso a implementação de uma ULA completa, aplic
 
 A estrutura modular e as otimizações implementadas resultaram em um circuito eficiente e de fácil compreensão, que serve como excelente exemplo didático dos fundamentos da computação digital.
 
-![ULA Completa](ula-completa-final.png)
-<!-- Adicione uma imagem final mostrando o circuito completo funcionando -->
+<div style="text-align: center; width: 800px; margin: 0 auto;">
+    <h3>Figura X: Imagem geral do desenvolvimento da Ula</h3>
+    <div style="max-width: 800px; margin: 0 auto;">
+        <img src="media/1-ula-completa.jpg" alt="Imagem do diagrama de blocos geral da solução" style="width: 100%;" />
+    </div>
+    <p><em>Fonte: Produzida pelos Autores (2025).</em></p>
+</div>
