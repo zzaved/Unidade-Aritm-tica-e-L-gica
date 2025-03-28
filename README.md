@@ -1,7 +1,6 @@
 # Documentação da Unidade Lógica e Aritmética (ULA)
 
-## 🎬 [Acesse o vídeo explicativo clicando aqui](#) 
-<!-- Adicione o link para o seu vídeo explicativo aqui -->
+## 🎬 [Acesse o vídeo explicativo clicando aqui](https://youtu.be/P9vu5nvRbQE) 
 
 ## 📋 Sumário
 1. [Introdução](#introdução)
