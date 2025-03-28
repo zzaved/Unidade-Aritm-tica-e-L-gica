@@ -3,18 +3,18 @@
 ## 🎬 [Acesse o vídeo explicativo clicando aqui](https://youtu.be/P9vu5nvRbQE) 
 
 ## 📋 Sumário
-1. [Introdução](#introdução)
-2. [Visão Geral do Projeto](#visão-geral-do-projeto)
-3. [Componentes da ULA](#componentes-da-ula)
+1. [Introdução](#-introdução)
+2. [Visão Geral do Projeto](#-visão-geral-do-projeto)
+3. [Componentes da ULA](#-componentes-da-ula)
    - [Operações Aritméticas](#operações-aritméticas)
    - [Operações de Deslocamento](#operações-de-deslocamento)
    - [Operações Lógicas](#operações-lógicas)
-4. [Circuito Seletor](#circuito-seletor)
-5. [Detecção de Overflow](#detecção-de-overflow)
-6. [Display Hexadecimal](#display-hexadecimal)
-7. [Testes e Validação](#testes-e-validação)
-8. [Melhorias e Otimizações](#melhorias-e-otimizações)
-9. [Conclusão](#conclusão)
+4. [Circuito Seletor](#-circuito-seletor)
+5. [Detecção de Overflow](#️-detecção-de-overflow)
+6. [Display Hexadecimal](#-display-hexadecimal)
+7. [Testes e Validação](#-testes-e-validação)
+8. [Melhorias e Otimizações](#️-melhorias-e-otimizações)
+9. [Conclusão](#-conclusão)
 
 ## 📝 Introdução
 
