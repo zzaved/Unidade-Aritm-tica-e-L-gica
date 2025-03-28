@@ -22,11 +22,11 @@
 Este projeto implementa uma Unidade Lógica e Aritmética (ULA) completa usando o simulador Digital. A ULA é o componente fundamental em sistemas computacionais responsável por realizar operações aritméticas e lógicas.
 
 <div style="text-align: center; width: 800px; margin: 0 auto;">
-    <h3>Figura X: Imagem geral da Ula</h3>
+    <h3>Figura 1: Imagem geral da Ula</h3>
     <div style="max-width: 800px; margin: 0 auto;">
         <img src="media/1-ula-zoom.jpg" alt="Imagem do diagrama de blocos geral da solução" style="width: 100%;" />
     </div>
-    <p><em>Fonte: Produzida pelos Autores (2025).</em></p>
+    <p><em>Fonte: Produzida pelo Autor (2025).</em></p>
 </div>
 
 ## 🔭 Visão Geral do Projeto
@@ -253,9 +253,9 @@ Este projeto demonstrou com sucesso a implementação de uma ULA completa, aplic
 A estrutura modular e as otimizações implementadas resultaram em um circuito eficiente e de fácil compreensão, que serve como excelente exemplo didático dos fundamentos da computação digital.
 
 <div style="text-align: center; width: 800px; margin: 0 auto;">
-    <h3>Figura X: Imagem geral do desenvolvimento da Ula</h3>
+    <h3>Figura 2: Imagem geral do desenvolvimento da Ula</h3>
     <div style="max-width: 800px; margin: 0 auto;">
         <img src="media/1-ula-completa.jpg" alt="Imagem do diagrama de blocos geral da solução" style="width: 100%;" />
     </div>
-    <p><em>Fonte: Produzida pelos Autores (2025).</em></p>
+    <p><em>Fonte: Produzida pelo Autor (2025).</em></p>
 </div>
